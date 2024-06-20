@@ -11,12 +11,18 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: brown;
+    background-color: #5a3399;
+    color: white;
 }
 
 
 aside {
-    width: 20%;
+    width: 15%;
+    max-height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -52,7 +58,8 @@ main .meio .esquerda {
 main .meio .direita {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 35%;
+    padding: 20px;
 }
 
 main .meio .esquerda .topocima {
@@ -80,6 +87,7 @@ table {
     padding: 1.8rem;
     border-radius: 2rem;
     text-align: center;
+    font-size: 12px;
 }
 
 table tbody td {
@@ -88,7 +96,7 @@ table tbody td {
 }
 
 .TotalSales {
-    border: 1px solid blue;
+    border: 1px solid rgb(245, 241, 241);
     width: 100%;
 
     display: flex;
@@ -103,11 +111,12 @@ table tbody td {
 }
 
 .TotalSales>div {
-    border: 1px solid red;
+    border: 1px solid white;
     height: 90%;
     width: 25%;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 10px;
+    background-color: white;
 }
 
 .bashboard span {
@@ -180,7 +189,7 @@ table tbody td {
  }
 
  .new {
-    border: 1px solid red;
+    border: 1px solid white;
     display: flex;
     margin: auto 20px;
     justify-content: space-around;
@@ -188,20 +197,117 @@ table tbody td {
     font-size: 11px;
  }
 
- .card {
+
+.Messages {
+    display: flex;
+    align-items: center;
+}
+
+.messages{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.danger {
+    background-color: rgb(247, 60, 60);
+    color: white;
+}
+
+.conteudo{  
+    gap: 80px;
+    height: 100%;
+    width: 100%;
+}
+
+aside .fim{
+    height: 10%;
+}
+
+.Add_Product {
+    display: flex;
+    align-items: center;
+}
+
+.Add-Product {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+.conteudo .a-hover:hover {
+    background-color: #E1E3F0; 
+}
+
+.material-symbols-outlined {
+    display: inline-block; 
+    margin-right: 5px; 
+}
+
+.fim button {
+    border: none;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+img {
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.recent_updates{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    gap: 10px;
+    font-size: 12px;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+}
+
+.recent_updates .user {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.recent_updates .user p{
+    margin-left: 10px;
+}
+
+.new span {
+    background-color: blue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
     align-items: center;
     justify-content: center;
- }
+}
 
-.recent_updates {
+.buttonfim button{
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    background-color: white;
-    padding: 10px;
+    justify-content: center;
+    width: 100% ;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #5a3399;
+    align-items: center;
     font-size: 12px;
-    border-radius: 25px;
+    font-weight: bold;
+}
+
+.meio .esquerda input {
+    width: 120px;
 }
